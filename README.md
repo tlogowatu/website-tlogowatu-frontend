@@ -23,7 +23,7 @@ Sebelum memulai, pastikan Anda memiliki:
 
 1.  **Clone Repositori**
     ```bash
-    git clone [URL_REPOSITORI_ANDA]
+    git clone https://github.com/tlogowatu/website-tlogowatu-frontend
     cd website-desa
     ```
 
