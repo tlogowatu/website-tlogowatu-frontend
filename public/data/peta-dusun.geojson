@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tlogowatu",
+        "name": "Dusun Tlogowatu",
+        "color": "#4ade80"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [110.6135, -7.7245],
+            [110.6155, -7.7245],
+            [110.6155, -7.7265],
+            [110.6135, -7.7265],
+            [110.6135, -7.7245]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mendak",
+        "name": "Dusun Mendak",
+        "color": "#3b82f6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [110.6160, -7.7250],
+            [110.6180, -7.7250],
+            [110.6180, -7.7270],
+            [110.6160, -7.7270],
+            [110.6160, -7.7250]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sumberejo",
+        "name": "Dusun Sumberejo",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [110.6140, -7.7275],
+            [110.6160, -7.7275],
+            [110.6160, -7.7295],
+            [110.6140, -7.7295],
+            [110.6140, -7.7275]
+          ]
+        ]
+      }
+    }
+  ]
+}
