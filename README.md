@@ -28,7 +28,6 @@ Sebelum memulai, pastikan Anda memiliki:
     ```
 
 2.  **Install Dependensi**
-    Jalankan perintah berikut di terminal:
     ```bash
     npm install
     ```
@@ -53,8 +52,16 @@ Buka browser Anda dan akses `http://localhost:3000`.
 
 ## Fitur Utama
 
-* **Halaman Beranda:** Menampilkan *hero section* layar penuh dengan gambar latar, diikuti dengan carousel berita terkini, potensi desa, dan peta wilayah.
-* **Halaman Data Desa:** Menampilkan data kependudukan agregat dan rincian per dusun dengan tombol interaktif dan peta wilayah dusun.
-* **Halaman Berita:** Menampilkan carousel berita utama dan daftar semua berita dalam format kartu.
-* **Halaman Detail Berita:** Menampilkan konten lengkap satu artikel berita.
-* **Animasi:** Menggunakan Framer Motion untuk animasi teks dan angka yang dinamis.
+### Tampilan Publik
+* **Halaman Beranda:** Menampilkan *hero section* layar penuh, diikuti dengan carousel berita, potensi desa, dan peta.
+* **Halaman Data Desa:** Menampilkan data kependudukan dengan tombol interaktif dan peta wilayah.
+* **Halaman Berita:** Menampilkan carousel berita utama dan daftar semua berita.
+
+### Panel Admin
+* **Halaman Login (`/login`):** Halaman login yang terisolasi dari layout publik untuk akses admin.
+* **Dasbor Admin (`/admin`):**
+    * Layout modern dengan **sidebar navigasi** yang persisten.
+    * Halaman utama dasbor yang menampilkan ringkasan data.
+    * Halaman **Kelola Berita** (`/admin/berita`) dengan form untuk membuat berita baru.
+    * Halaman **Kelola Data Desa** (`/admin/data-desa`) dengan form untuk memperbarui data penduduk per dusun.
+    * Rute admin dilindungi dan hanya bisa diakses setelah login berhasil.
