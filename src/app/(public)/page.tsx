@@ -1,6 +1,6 @@
 import AnimatedText from "@/components/AnimatedText";
 import BeritaCarousel from "@/components/BeritaCarousel";
-import bgDesaImage from "../../public/images/bg-desa.jpg";
+import bgDesaImage from "../../../public/images/bg-desa.jpg";
 
 export default function Home() {
   return (
